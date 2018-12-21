@@ -1,0 +1,240 @@
+/*fonts*/
+/*
+font-family: 'Merriweather', serif; - welcome
+font-family: 'Montserrat', sans-serif; - to do header
+font-family: 'Amatic SC', cursive; - quote
+font-family: 'Acme', sans-serif; 
+*/
+
+
+body {
+  background: linear-gradient(rgba(141, 153, 174, 0.8),
+                 rgba(141, 153, 174, 0.5)),
+                 url(../images/DC.jpg) no-repeat fixed;
+    background-size:cover;
+}
+/*welcome*/
+
+#greeting {
+    text-align:center;
+    font-size:3em;
+    margin-bottom:-.6%;
+    padding-top:2%;
+    color:white;
+    font-family: 'Merriweather', serif;
+}
+#date {
+    text-align:center;
+    color:white;
+    font-family: 'Merriweather', serif;
+    font-size:0.9em;
+    margin-bottom:3%;
+}
+/*weather*/
+#weather {
+    
+}
+
+/*to do*/
+#ToDoWrapper{
+    width: 60%;
+    margin: 0 auto !important;
+    float: none !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:white;
+    
+    
+}
+
+#main{
+  display:inline-block;
+}
+
+#header{
+    border-bottom:1px solid white;
+    background-color:rgba(0,0,0,0.6);
+    padding: 20px;
+    text-align:center;
+    font-size:1em;
+    margin-top:2.5%;
+    width:100%;
+    font-family: 'Merriweather', serif;
+}
+
+#yourdiv{
+    padding: 20px;
+    background-color:rgba(0,0,0,0.6);
+    display:inline-block;
+    width:100%;
+    
+}
+
+
+textarea{
+    float:left;
+    margin-bottom:%;
+	width: 60%;
+    font-size:1.0em;
+    
+}
+input[type=submit]{
+	float:left;
+    margin-left: auto;
+    margin-right: auto;
+	width: 30%;
+	background-color: #000;
+    border: none;
+    color: white;
+    padding: 13px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size:.9em;
+    margin-top:-17px;
+    
+}
+#ShowToDoList {
+    float:left;
+    width:100%;
+    max-height:175px;
+    overflow:scroll;
+    padding-right:10px;
+    
+    
+}
+#ShowToDoList p{
+    font-size: 1.2em;
+    margin-bottom:-1%;
+    font-family: 'Acme', sans-serif;
+}
+#ShowToDoList a {
+    background-color: red;
+    color: white;
+    padding: .5em .3em;
+    border:1px inset white;
+    text-decoration: none;
+    text-transform: uppercase;
+    float:right;
+    margin-top:-35px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:0.7em;
+   
+}
+#ShowToDoList a:hover {
+    border:1px outset black;
+}
+
+/*quote box */
+.quote_box {
+    width:100%;
+    text-align:center;
+    background-color:rgba(255,0,0,0.6);
+    font-size:1.6em;
+    font-family: 'Amatic SC', cursive;
+    color:white;
+    font-size:2.1em;
+}
+/*helath*/
+#health {
+    width:100%;
+    display:inline-block;
+    margin-top:2.5%;
+}
+.box {
+    float:left;
+    width:35%;
+    margin-left:10%;
+    border-radius:25px;
+    border:1px outset rgb(0, 0, 0);
+    background-color:rgba(0,0,0,0.6);
+    color:white;
+}
+/*fitness*/
+
+#fitness h2 {
+    font-size:2.0em;
+    font-family: 'Acme', sans-serif;
+    text-align:center;
+}
+#fitness ul {
+    font-family: 'Acme', sans-serif;   
+}
+#fitness li {
+    font-size:1.3em;
+    
+}
+#fitness a {
+    color:white;
+}
+#fitness h3 {
+    text-align:center;
+}
+/*diet */
+
+#diet h2 {
+    font-family: 'Acme', sans-serif;
+    font-size:2.0em;
+    text-align:center;
+}
+#blue_zones {
+    width:45%;
+    margin-left:2.5%;
+    float:left;
+    padding-bottom:10%;
+    
+    
+}
+#blue_zones img {
+    width:100%;
+    border:2px outset aliceblue;
+   
+}
+#daily {
+    width:50%;
+    float:left;
+    margin-top:-20px;
+    font-family: 'Acme', sans-serif;
+}
+#daily ul {
+    margin-top:-10px;
+    font-size:1.1em;
+}
+#daily h3 {
+    text-align:center;
+}
+#bz_link:hover {
+    opacity:0.5;
+}
+/*goals*/
+#goals {
+    display:inline-block;
+    width:100%;
+    border-radius:25px;
+    border:1px outset aliceblue;
+    background-color:rgba(0,0,0,0.6);
+    font-family: 'Acme', sans-serif;
+    margin-top:2.5%;
+}
+#goals_headline {
+    width:100%;
+    font-size:2.0em;
+    text-align:center;
+    color:white;
+    font-family: 'Acme', sans-serif;
+    margin-top:-2.5%;
+    margin-bottom:-1%;
+}
+.g_box {
+    float:left;
+    width:33%;
+    margin-left:0;
+    color:white;
+    text-align:center;
+}
+.g_box h3{
+    font-family: 'Acme', sans-serif;
+}
+.goals_list {
+    list-style:none;
+    font-size:1.1em;
+    margin-left:-10%;
+}

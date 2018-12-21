@@ -1,0 +1,88 @@
+/*colors*/
+/*#3a3231 - black */
+/*#f7e540- yellow*/
+/*#d1d0ca - grey*/
+
+/*fonts*/
+
+/*
+font-family: 'Bungee Inline', cursive; - headline
+font-family: 'Permanent Marker', cursive; - eat nails
+font-family: 'Roboto Mono', monospace; - table
+
+*/
+
+/*Global*/
+header, section, footer, aside, nav, article, figure, figcaption {
+    display:block;
+}
+
+html {
+    box-sizing: border-box;
+             
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    margin:0 auto;
+    width:85%;
+    background-color:whitesmoke;
+    border:2px solid black;
+    color:yellow;
+
+}
+.wrapper {
+    background-color:dimgray;
+    padding-top:.1%;
+}
+/*headline*/
+.headline {
+    text-align:center;
+    border-bottom:2px solid white;
+    font-family: 'Bungee Inline', cursive;
+}
+/*workout*/
+.workout {
+    width:100%;
+    font-family: 'Roboto Mono', monospace;
+    font-size:0.9em;
+}
+#workoutTable {
+    width:100%;
+    text-align:center;
+    background-color:dimgray;
+}
+#workoutTable th {
+    font-family: 'Bungee Inline', cursive;
+}
+#workoutTable th,td {
+    padding:1%;
+    border:1px solid white;
+    border-collapse: collapse;
+}
+#workoutTable a {
+    color:yellow;
+}
+#make_up {
+    text-align:center;
+    padding-bottom:65vh;
+}
+
+/*eat nails*/
+.eatNails {
+    background-color:black;
+    color:yellow;
+    text-align:center;
+    font-size:2em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Permanent Marker', cursive;
+    width:100%;
+}
+.eatNails h2 {
+    padding: 6.5%;
+    padding-top:1%;
+    margin-bottom:0;
+    margin-top:0;
+}
