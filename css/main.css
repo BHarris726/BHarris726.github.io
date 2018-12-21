@@ -72,7 +72,6 @@ body {
 
 textarea{
     float:left;
-    margin-bottom:%;
 	width: 60%;
     font-size:1.0em;
     
@@ -128,11 +127,13 @@ input[type=submit]{
     width:100%;
     text-align:center;
     background-color:rgba(255,0,0,0.6);
-    font-size:1.6em;
     font-family: 'Amatic SC', cursive;
     color:white;
-    font-size:2.1em;
+    
 }
+#quote{
+        font-size:2.1em;
+    }
 /*helath*/
 #health {
     width:100%;
@@ -238,3 +239,91 @@ input[type=submit]{
     font-size:1.1em;
     margin-left:-10%;
 }
+
+/*media querys*/
+@media (max-width: 820px) {
+    /*welcome*/
+
+    #greeting {
+        font-size:2.5em;
+    }
+    #date {
+        font-size:1.2em;
+    }
+    .quote_box {
+        margin-bottom:-3%;
+        margin-top:4%;
+        border:2px outset white;
+    }
+    #quote{
+        font-size:2.1em;
+    }
+    #ToDoWrapper {
+        width:100%;
+/*       border:3px solid yellow;*/
+    }
+    #showToDoList {
+        border-bottom:3px solid aliceblue;
+        border-top:3px solid aliceblue;
+    }
+    #yourdiv {
+        padding:0;
+    }
+    textarea {
+       margin-top:2.5%; 
+    }
+    input[type=submit] {
+        margin-top:-2.5%;
+    }
+    #header {
+        padding:20px 0;
+    }
+    #ShowToDoList p {
+        padding-left:2.5%;
+    }
+    #health {
+        width:100%;
+    }
+    .diet_box {
+        background-color:rgba(0,0,0,0.6);
+        border-radius:0;
+    }
+    #blue_zones {
+        width:100%;
+        margin-left:0;
+        padding-bottom:0;
+    }
+    #blue_zones img {
+        border:3px solid aliceblue;
+    }
+    #daily {
+        background-color:rgba(0,0,0,0.6);
+        width:100%;
+        margin:0;
+        border-bottom:3px solid aliceblue;
+        border-top:3px solid aliceblue;
+        font-size:1.9em;
+    }
+    #goals {
+        border-radius:0;
+        margin-top:0;
+    }
+    
+    .box {
+        width:100%;
+        margin-left:0;
+        float:none;
+        border-radius:0;
+        border-bottom:3px solid aliceblue;
+        border-top:3px solid aliceblue;
+    }
+    .g_box {
+        width:100%;
+        border-bottom:3px solid aliceblue;
+        border-top:3px solid aliceblue;
+    }
+    .quote_box {
+        font-size:2.0em;
+    }
+}
+
